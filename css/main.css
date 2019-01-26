@@ -1,0 +1,1065 @@
+/*Layout*/
+html,body {
+    min-width: 1000px;
+    margin:0px;  
+    height:100%;
+}
+.wrapper {
+    display: flex; 
+    flex-flow: row wrap;
+    margin: 0px auto;
+}
+
+#nav {
+    margin: 0px;
+    position:fixed;
+}
+
+.header span {
+    display: none;
+}
+
+.overlay a {
+    color: rgba(0, 0, 0, 0);
+}
+
+.header {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+}
+
+.menu {
+    padding-top: 0px;
+    align-items:center;
+    display: flex;
+    height:100px;
+    width: 100%;
+}
+
+.menu li{
+    list-style: none;
+    flex-wrap: nowrap;
+    width: 10%;
+}
+
+.popup ul {
+    width:110px;
+}
+
+.popup li a {
+    margin-left: -13px;  
+}
+
+.bboy {
+    margin-right: auto;
+}
+
+.main,.footer {
+    width:100%;
+}
+
+.banner {
+    display: flex;
+}
+
+.Culture h3 a, .Style h3 a {
+   padding-left: 13%; 
+}
+
+.History h3 a, .Music h3 a {
+    padding-left: 19%; 
+}
+.secondary article p{
+    width:60%;
+}
+
+.secondary {
+    display: flex; 
+    flex-flow: row wrap;
+}
+
+.History, .Music {
+    padding-top:100px;
+    height:400px;
+    width:40%;
+}
+
+.Culture, .Style{
+    padding-top:100px;
+    height:400px;
+    width:60%;
+}
+
+article h3 {
+    width:100%;
+}
+
+.secondary  article p {
+    margin-left: 13.5%;
+    width:60%;
+}
+
+/*Competition*/
+
+.championships, .champ {
+    width:100%;
+    display: flex;
+    flex-flow: row wrap;
+    height: auto;   
+}
+
+.champ1, .champ2, .champ3, .champ4 {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;   
+}
+
+.champ img {
+    width: 100%;
+    height:100%;
+}
+
+.championships h1,.championships h5 p {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+/*History*/
+.history {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%; 
+}
+
+.timeline {
+	padding: 40px;
+	width: 80%;
+	margin-left: 10%;
+	margin-bottom: 40px;
+}
+
+.timeline .column .title h1 {   
+	font-size: 120px;
+	color: rgba(22%,42%,62%,0.7);
+	font-family: serif;
+	letter-spacing: 3px;
+}
+
+
+.timeline .column .title h2 {
+    color: aliceblue;
+	margin-top: -125px;
+	font-size: 38px;
+}
+
+.timeline .column .description p {
+	font-size: 20px;
+	line-height: 20px;
+	margin-left: 20px;
+	margin-top: 10px;
+    font-family: JuliusSansOne;
+}
+
+.timeline .column .description {
+	border-left: 1px solid white;
+}
+
+/*Style*/
+.style { 
+    width:100%;
+    display: flex;
+    flex-flow: row wrap;
+    height: auto;
+}
+
+.style1, .style2, .style3, .style4 {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;   
+}
+
+
+.style img {   
+    width: 725px;
+    height:650px;
+    
+}
+/*toprock*/
+
+.toprock{  
+    display: flex;
+    flex-flow: column wrap;
+}
+
+/*Layout close*/
+/*Prettify*/
+
+.first {
+    height:40em;
+}
+
+.Hiphop h1 {
+    padding-top: 200px;
+    padding-left: 85%;
+}
+
+article p {
+    border-top: 2.8px solid white;
+    padding-top: 20px;
+    margin-left: 48%;
+    width:55%;
+}
+
+#HiphopI h1 {
+    padding-left: 5%;
+}
+
+#HiphopI p {
+    margin-left: 5%;
+    width:55%;
+}
+
+#HiphopCom h1 {
+    padding-left: 5%;
+}
+
+#HiphopCom p {
+    margin-left: 5%;
+    width:55%;
+}
+
+#HiphopH h1 {
+    padding-left: 5%;
+}
+
+#HiphopH p {
+    margin-left: 5%;
+    width:55%;
+}
+
+#HiphopC h1 {
+    padding-left: 5%;
+}
+
+#HiphopC p {
+    margin-left: 5%;
+    width:55%;
+}
+
+#HiphopS h1 {
+    padding-left: 105%;
+}
+
+#HiphopS p {
+    margin-left: 60%;
+    width:55%;
+}
+
+#HiphopM h1 {
+    padding-left: 5%;
+}
+
+#HiphopM p {
+    border-top: 1.5px solid white;
+    padding-top: 20px;
+    margin-left: 5%;
+    width:50%;
+}
+
+#HiphopS h1 {
+    padding-left: 5%;
+}
+
+#HiphopS p {
+    margin-left: 5%;
+    width:80%;
+}
+
+#HiphopP h1 {
+    padding-left: 80%;
+}
+
+.menu li ul{    
+    position: absolute;
+    display: flex;
+    flex-flow: column wrap;
+    display: none;
+    margin-left: -2em;
+}
+
+.menu .ul1 {
+    margin-left: -55px;
+}
+
+.popup ul li, .popup ul {   
+    padding-top: 1.2em;
+}
+
+.menu li:hover ul{
+    display: flex;
+}
+
+h1 a:hover,h3 a:hover,li a:hover {
+    color: aqua;
+}
+
+/*Input*/
+.footer .title {
+    width: 100%;
+}
+
+.footer {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+form {
+    margin-left: 5%;
+}
+
+#buttom {
+    position:absolute;
+    width:200px;
+    height:60px;
+    border: 2px solid white;
+    margin-top: 18em; 
+    font-family: Quicksand;
+    font-size: 24px;
+    background-color: rgba(0,0,0,0);
+    color: aliceblue;
+}
+
+#buttom:hover {
+    color:aqua;
+    border: 2px solid aqua;
+}
+
+.input {
+	position: relative;
+	display: flex;
+    flex-flow: row wrap;
+	max-width: 290px;
+	width: calc(15% - 2em);
+    height: 600px;
+    margin-right: 7%;;
+    padding-top: 50px; 
+}
+
+.input__field {
+	height:10%;
+	width: 60%;
+	border: none;
+	border-radius: 0;
+	background: #f0f0f0;
+	color: #aaa;
+    font-size: 25px;
+	font-weight: bold;
+	font-family: Quicksand;
+}
+
+.input__field:focus {
+	outline: none;
+}
+
+.input__label {
+	width: 40%;
+	color:aliceblue;
+	font-weight: bold;
+	font-size: 30px;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.input__label-content {
+	position: relative;
+	display: block;
+	padding: 1.6em 0;
+	width: 100%;
+}
+
+.input--jiro {
+	margin-top: 2em;
+}
+
+.input__field--jiro {
+	padding: 0.85em 0.5em;
+	width: 100%;
+	background: transparent;
+	color:aqua;
+	opacity: 0;
+	-webkit-transition: opacity 0.3s;
+	transition: opacity 0.3s;
+}
+
+.input__label--jiro {
+	position: absolute;
+	left: 0;
+	padding: 0 0.85em;
+	width: 100%;
+	height: 15%;
+	text-align: left;
+	pointer-events: none;
+}
+
+.input__label-content--jiro {
+    
+    font-family: Quicksand;
+    color:aliceblue;
+	-webkit-transition: -webkit-transform 0.3s 0.3s;
+	transition: transform 0.3s 0.3s;
+}
+
+.input__label--jiro::before,
+.input__label--jiro::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	-webkit-transition: -webkit-transform 0.3s;
+	transition: transform 0.3s;
+}
+
+.input__label--jiro::before {
+	border-top: 2px solid white;
+	-webkit-transform: translate3d(0, 100%, 0) translate3d(0, -2px, 0);
+	transform: translate3d(0, 100%, 0) translate3d(0, -2px, 0);
+	-webkit-transition-delay: 0.3s;
+	transition-delay: 0.3s;
+}
+
+.input__label--jiro::after {
+	z-index: -1;
+    background-color: rgba(22%, 22%, 22%,0.8);
+	-webkit-transform: scale3d(1, 0, 1);
+	transform: scale3d(1, 0, 1);
+	-webkit-transform-origin: 50% 0%;
+	transform-origin: 50% 0%;
+}
+
+.input__field--jiro:focus,
+.input--filled .input__field--jiro {
+	opacity: 1;
+	-webkit-transition-delay: 0.3s;
+	transition-delay: 0.3s;
+}
+
+.input__field--jiro:focus + .input__label--jiro .input__label-content--jiro,
+.input--filled .input__label-content--jiro {
+	-webkit-transform: translate3d(0, -80%, 0);
+	transform: translate3d(0, -80%, 0);
+	-webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+	transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+}
+
+.input__field--jiro:focus + .input__label--jiro::before,
+.input--filled .input__label--jiro::before {
+	-webkit-transition-delay: 0s;
+	transition-delay: 0s;
+}
+
+.input__field--jiro:focus + .input__label--jiro::before,
+.input--filled .input__label--jiro::before {
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
+
+.input__field--jiro:focus + .input__label--jiro::after,
+.input--filled .input__label--jiro::after {
+	-webkit-transform: scale3d(1, 1, 1);
+	transform: scale3d(1, 1, 1);
+	-webkit-transition-delay: 0.3s;
+	transition-delay: 0.3s;
+	-webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+	transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+}
+
+/* styLe */
+
+.styLe {  
+    overflow-x: hidden;
+}
+.styLe ul{
+    height: 500px;
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    animation: ec-marquee-move 80s infinite linear;
+}
+
+@keyframes ec-marquee-move {
+    0% {
+            transform: translateX(0px);
+        }
+    100% {
+            transform: translateX(-5800px);
+    }
+}
+
+.grid {
+	position: relative;
+	clear: both;
+	margin: 0 auto;
+	padding: 1em 0 4em;
+	width: 50%;
+	list-style: none;
+	text-align: center;
+}
+
+.grid figure {
+	position: relative;
+	float: left;
+	overflow: hidden;
+	margin: 10px 1%;
+	width:auto;
+	height: auto;
+	background: #3085a3;
+	text-align: center;
+	cursor: pointer;
+}
+
+.grid figure img {
+	position: relative;
+	display: block;
+	opacity: 0.8;
+}
+
+.grid figure figcaption {
+	padding: 2em;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 2.55em;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.grid figure figcaption::before,
+.grid figure figcaption::after {
+	pointer-events: none;
+}
+
+.grid figure figcaption{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
+.grid figure p {
+	letter-spacing: 1px;
+	font-size: 68.5%;
+}
+
+figure.effect-style {
+	background: #2f3238;
+}
+
+figure.effect-style img {
+	max-width: none;
+	height: 400px;
+	-webkit-transition: opacity 1s, -webkit-transform 1s;
+	transition: opacity 1s, transform 1s;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+figure.effect-style figcaption {
+	text-align: left;
+}
+
+figure.effect-style p {
+	display: inline-block;
+	margin: 0 0 0.25em;
+	padding: 0.4em 1em;
+	background: rgba(255,255,255,0.9);
+	color: #2f3238;
+	text-transform: none;
+	font-weight: 500;
+	font-size: 75%;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(-360px,0,0);
+	transform: translate3d(-360px,0,0);
+}
+
+figure.effect-style p:first-child {
+	-webkit-transition-delay: 0.15s;
+	transition-delay: 0.15s;
+}
+
+
+figure.effect-style:hover p:first-child {
+	-webkit-transition-delay: 0s;
+	transition-delay: 0s;
+}
+
+
+figure.effect-style:hover img {
+	opacity: 0.4;
+	-webkit-transform: scale3d(1.1,1.1,1);
+	transform: scale3d(1.1,1.1,1);
+}
+
+figure.effect-style:hover p {
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+/*competition*/
+.championships h1 {
+    border-bottom: 2.8px solid white;
+    padding-bottom: 15px;
+    margin-left: 75%;
+    margin-bottom:-10px;
+    margin-top: 30px;
+}
+
+.championships h5 p {
+    margin-left: 120px;
+}
+
+.champ h1 {
+    width: 500px;
+    border-bottom: 2.8px solid white;
+    padding-bottom: 15px;
+    margin-top: 200px;
+    margin-left: 100px;  
+    
+}
+
+.champ h5 p {
+    margin-left: 100px;
+    padding-bottom: 15px;
+    margin-top: 20px;
+    width: 85%;
+}
+
+/*History*/
+
+iframe{
+    width: 600px;
+    height: 500px;
+    padding-top: 100px;
+    padding-left: 20%;
+}
+.underhistory {
+    width: 50%;
+    height: 15%;
+    overflow:scroll;
+    margin-right: 100px;
+}
+
+.underhistory::-webkit-scrollbar {
+    display:none;
+}
+
+/*cultrue*/
+
+.culture, .undercultrue {
+    display: flex;
+    flex-flow: column nowrap;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.undercultrue h2 {
+    text-align: center;
+    width: 1200px;
+}
+
+.undercultrue img {    
+    margin-top: 20px;
+    height:300px;
+    width: 500px;
+}
+
+/*style*/
+
+.style h1 {
+    width: 500px;
+    border-bottom: 2.8px solid white;
+    padding-bottom: 15px;
+    margin-top: 200px;
+    margin-left: 100px;  
+}
+
+.style h5 p {
+    margin-left: 100px;
+    padding-bottom: 15px;
+    margin-top: 20px;
+    width: 85%;
+}
+
+
+/*Music*/
+
+.music {
+    display: flex;
+    flex-flow: row nowrap;
+    width:100%;
+}
+
+.music iframe {
+    padding-top: 100px;
+    margin-left: 3px;
+    width: 100%;
+}
+
+.undermusic {
+    width: 40%;
+    height: 680px;
+    overflow:scroll;
+    padding-left: 100px;
+}
+
+.undermusic::-webkit-scrollbar {
+    display:none;
+}
+/*Backgroud*/
+
+body {
+    background-image: url("../images/bcone.jpg");
+    background-repeat: no-repeat;
+    background-color:white;
+    background-attachment:fixed;
+    background-size: cover;
+}
+
+#nav, #nav ul {
+    background-color: rgba(0,0,0,0.85);
+}
+
+.banner {  
+    background-image: url("../images/bg.jpg");
+    background-size:cover;
+    background-attachment:fixed;
+}
+
+.History { 
+    background-image: url("../images/bg7.jpg");
+    background-size: cover;
+   
+}
+
+.Culture { 
+    background-image: url("../images/bg4.jpg");
+    background-size: cover;
+}
+
+.Style {
+    background-image: url("../images/bg6.jpg");
+    background-size: cover;
+}
+
+.Music {
+    background-image: url("../images/bg3.jpg");
+    background-size: cover;
+}
+
+/*competition*/
+.championships {
+    background-color: rgba(15%, 15%, 20%,0.8);
+}
+
+.champ, .style {
+    
+    background-color: rgba(0%, 0%, 0%,0.1);
+}
+
+.champ1, .style1 {
+    background-color: rgba(205,131,100,0.8);
+}
+
+.champ2, .style2 {
+    background-color: rgba(22%, 22%, 22%,0.8);
+}
+
+.champ3, .style3 {
+    background-color: rgba(20%, 25%, 35%,0.8);
+}
+
+.champ4,  .style4 {
+    background-color: rgba(30%, 25%, 40%,0.8);
+}
+
+.underhistory {
+     background-color: rgba(0%, 0%, 0%,0);
+}
+
+.culture {
+    background-color: rgba(15%, 15%, 20%,0.5);
+}
+
+/*font*/
+
+@font-face {
+    
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;    
+}
+
+@font-face {
+    font-family: 'Poiret One';
+    src: url('../fonts/PoiretOne-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;  
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url('../fonts/Quicksand-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;  
+}
+
+ a,p,h3,h1{
+    color: aliceblue;
+    text-decoration:none ;
+}
+
+.menu li a {
+    font-family:Quicksand;
+    font-weight: 850;
+    font-size:25px;
+}
+
+.footer {
+    display: flex;
+    flex-flow: row wrap;
+    height:800px;
+}
+
+
+.Hiphop h1,.footer h3{
+    font-family:Quicksand;
+    font-size: 50px;
+}
+
+.championships h1, .champ h1{
+    font-family:Quicksand;
+    font-size: 40px;
+}
+
+.Hiphop p, .championships h5 p, .champ h5 p{
+    font-family:Poiret One;
+    font-size: 23.4px;
+}
+
+h3 .link {
+    font-family:Quicksand;
+    font-size: 25px;
+}
+
+.secondary p {
+    font-family:Poiret One;
+    font-size: 18px;
+    font-weight: 850;
+}
+
+.popup ul li a{
+    font-family:Quicksand;
+    font-size: 20px;
+}
+
+.champ h5 p { 
+    font-family: Quicksand;
+}
+/*competition*/
+
+.comCham h1{
+    font-family: Quicksand;
+}
+
+/*culture*/
+
+.culture {
+    color:aliceblue;
+    font-family: Quicksand;
+}
+
+/*Style*/
+
+.understyle h5 p,  .understyle h1{ 
+    font-family: Quicksand;
+}
+
+.understyle h1 {
+    font-size: 40px;
+}
+
+.understyle h5 p{ 
+    font-size: 23.4px;
+}
+
+/*Music*/
+.undermusic p{
+    font-family: Quicksand;
+    font-size: 23px;
+}
+
+/*Animation*/
+
+/*competition*/
+
+.comCham{
+    width: 65%;
+}
+
+.img {
+    width: 35%;
+    overflow: hidden;
+}
+
+.champ img{
+   transition: all 2s;
+}
+
+.champ img:hover {
+    transform: scale(1.041);
+}
+
+/*style*/
+
+.understyle{ 
+    width: 65%;
+}
+
+.style img{
+   transition: all 2s;
+}
+
+.style img:hover {
+    transform: scale(1.041);
+}
+
+
+/* Responsive */
+
+@media screen and (max-width: 1200px){
+        
+    .first {
+        width:10%;
+    }
+
+    .Hiphop p{
+        display: none;
+    }
+
+    .History h1 {
+        margin-left: 20%;
+        padding-left: 10em;
+    }
+
+    .history {
+        flex-wrap: wrap;
+    }
+    
+    iframe {
+        padding-bottom: 10%;
+        padding-left: 24%;
+        width:700px;
+        height:500px;
+    }
+    
+    .underhistory {
+        margin-top: -80%;
+        width:100%;
+        height: 40%;
+        order: 2;
+    }
+    
+    .music {
+        flex-wrap: wrap;
+    }
+    
+    .undermusic {
+        order:2;
+        width: 100%;
+    }
+    
+    .understyle, .img .comCham{
+        width:100%;
+    }
+    
+    .style img {
+        height:100%;
+        width: 100%;
+    }
+    
+    .style h1, .style h5 p, .champ h1, .champ h5 p {
+        margin-top: 10%;
+        margin-left: 10%;
+    }
+
+    .secondary  article p {
+        margin-left: 13%;
+        width:70%;
+    }
+    
+/* Menu Bar */
+    #nav {
+        display: none;
+    }
+    
+    .header span {
+        font-family: Poiret One;
+        font-size:30px;
+        cursor:pointer;
+        display: flex;
+        position: fixed;
+        color:aliceblue;
+    }
+    
+    .overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+    
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    font-family: Quicksand;
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color:azure;
+    display: block;
+    transition: 0.3;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color:aqua;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 80px;
+}
+}
